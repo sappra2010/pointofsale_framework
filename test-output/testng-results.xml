@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[testA]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-26T12:48:14 IST" name="Suite" finished-at="2023-06-26T12:48:25 IST" duration-ms="10976">
+    <groups>
+    </groups>
+    <test started-at="2023-06-26T12:48:14 IST" name="Test" finished-at="2023-06-26T12:48:25 IST" duration-ms="10976">
+      <class name="pos.scripts.DemoTest">
+        <test-method is-config="true" signature="intReport(java.lang.String)[pri:0, instance:pos.scripts.DemoTest@411f53a0]" started-at="2023-06-26T12:48:13 IST" name="intReport" finished-at="2023-06-26T12:48:14 IST" duration-ms="473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[report/Spark.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intReport -->
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:pos.scripts.DemoTest@411f53a0]" started-at="2023-06-26T12:48:14 IST" name="preCondition" finished-at="2023-06-26T12:48:24 IST" duration-ms="10410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://sapna.aksharatraining.in/pos/public]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qa.properties]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void pos.scripts.DemoTest.testA()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testA()[pri:0, instance:pos.scripts.DemoTest@411f53a0]" started-at="2023-06-26T12:48:24 IST" name="testA" finished-at="2023-06-26T12:48:24 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testA]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:pos.scripts.DemoTest@411f53a0]" started-at="2023-06-26T12:48:24 IST" name="postCondition" finished-at="2023-06-26T12:48:25 IST" duration-ms="482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testA status=SUCCESS method=DemoTest.testA()[pri:0, instance:pos.scripts.DemoTest@411f53a0] output=testA]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:pos.scripts.DemoTest@411f53a0]" started-at="2023-06-26T12:48:25 IST" name="generateReport" finished-at="2023-06-26T12:48:25 IST" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- pos.scripts.DemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
