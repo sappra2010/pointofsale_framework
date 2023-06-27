@@ -1,6 +1,6 @@
 package pos.scripts;
 
-
+//to open pos application
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
